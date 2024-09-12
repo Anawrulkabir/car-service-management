@@ -5,7 +5,7 @@ import banner from '../images/banner2.jpg'
 const Banner = () => {
     return (
         <div>
-            <Image src={banner} height={1920} width={1920} alt='banner'  className='w-full mb-10'/>
+            <Image src={banner} height={1920} width={1920} alt='banner'  className='w-full mb-10 rounded-xl'/>
         </div>
     );
 };
