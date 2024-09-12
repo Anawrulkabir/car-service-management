@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import logo from '../images/logo.png'
+import logo from '../images/Logo.jpg'
 import Link from 'next/link';
 import { TiMessageTyping } from 'react-icons/ti';
 
@@ -9,9 +9,9 @@ const Navbar = () => {
         <div className='flex flex-col lg:flex-row items-center justify-between gap-5 '>
             {/* logo section */}
             <div className="flex gap-2 w-full items-center justify-center lg:justify-start">
-                <Image src={logo} height={50} width={50} alt='logo' />
+                <Image src={logo} height={80} width={80} alt='logo' />
                 <div>
-                    <h1 className='text-2xl font-bold'>CarHive</h1>
+                    <h1 className='text-3xl font-black'>Car<span className='text-[#FF6E0C]'>Hive</span></h1>
                     <p className="text-sm text-gray-500">Repair your car</p>
                 </div>
             </div>
