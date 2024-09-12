@@ -3,6 +3,7 @@ import React from "react";
 import Button from "./Button";
 import LatestNewsAhosan from "./LatestNewsAhosan";
 import FooterAhosan from "./FooterAhosan";
+import Banner from "./Banner";
 
 
 
@@ -11,6 +12,7 @@ import FooterAhosan from "./FooterAhosan";
 const HomePageAhosanPart = () => {
   return (
     <div>
+      <Banner/>
       <div>
         <div className="bg-[url('https://i.ibb.co.com/qM6Lkzn/Untitled-1.png')]">
           <div className="flex">
