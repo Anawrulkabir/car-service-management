@@ -1,4 +1,4 @@
-
+import Footer from "@/components/Footer";
 import HomePageAhosanPart from "@/components/HomePageAhosanPart";
 import Navbar from "@/components/Navbar";
 
