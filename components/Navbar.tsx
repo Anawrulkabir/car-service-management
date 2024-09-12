@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className='flex flex-col lg:flex-row items-center justify-between gap-5 '>
             {/* logo section */}
-            <div className="flex gap-2 w-full items-center justify-center lg:justify-start">
+            <div className="flex w-full items-center justify-center lg:justify-start">
                 <Image src={logo} height={80} width={80} alt='logo' />
                 <div>
                     <h1 className='text-3xl font-black'>Car<span className='text-[#FF6E0C]'>Hive</span></h1>
