@@ -4,20 +4,30 @@ import Button from "./Button";
 import LatestNewsAhosan from "./LatestNewsAhosan";
 import FooterAhosan from "./FooterAhosan";
 
+
+
+
+
 const HomePageAhosanPart = () => {
   return (
     <div>
-      <div style={{ width: "100vw"}}>
-        <Image
-          src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"
-          alt="Description"
-          layout="responsive"
-          width={100} 
-          height={100} 
-          objectFit="cover" 
-        />
+      <div>
+        <div className="bg-[url('https://i.ibb.co.com/Vq8FqrC/Untitled-1.png')]">
+          <div className="flex">
+            <Image
+              src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"
+              alt="image"
+              width={500}
+              height={300}
+            />
+            <Image
+              src="https://i.ibb.co.com/pL6TqFf/Untitled3.jpg"
+              alt="image"
+              width={500}
+              height={300}
+            />
+       
       </div>
-
       <div>
         <div>
           <p>Felling any kind of vehicle here</p>
@@ -36,14 +46,8 @@ const HomePageAhosanPart = () => {
               height={300}
             />
             <div className="flex text-center flex-col">
-              <p className="text-3xl font-bold">Luxury Car</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit.
-                Veniam unde praesentium rerum aut ipsum, <br />
-                quos itaque fuga doloribus mollitia quisquam nesciunt! <br />
-                Voluptas asperiores neque esse excepturi quisquam ut nihil
-                eligendi.
-              </p>
+                <p className="text-3xl font-bold">Luxury Car</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit. Veniam unde praesentium rerum aut ipsum, <br />quos itaque fuga doloribus mollitia quisquam nesciunt! <br />Voluptas asperiores neque esse excepturi quisquam ut nihil eligendi.</p>
             </div>
             <Button></Button>
           </div>
@@ -56,14 +60,8 @@ const HomePageAhosanPart = () => {
               height={300}
             />
             <div className="flex text-center flex-col">
-              <p className="text-3xl font-bold">Luxury Car</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit.
-                Veniam unde praesentium rerum aut ipsum, <br />
-                quos itaque fuga doloribus mollitia quisquam nesciunt! <br />
-                Voluptas asperiores neque esse excepturi quisquam ut nihil
-                eligendi.
-              </p>
+                <p className="text-3xl font-bold">Luxury Car</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit. Veniam unde praesentium rerum aut ipsum, <br />quos itaque fuga doloribus mollitia quisquam nesciunt! <br />Voluptas asperiores neque esse excepturi quisquam ut nihil eligendi.</p>
             </div>
             <Button></Button>
           </div>
@@ -76,19 +74,15 @@ const HomePageAhosanPart = () => {
               height={300}
             />
             <div className="flex text-center flex-col">
-              <p className="text-3xl font-bold">Luxury Car</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit.
-                Veniam unde praesentium rerum aut ipsum, <br />
-                quos itaque fuga doloribus mollitia quisquam nesciunt! <br />
-                Voluptas asperiores neque esse excepturi quisquam ut nihil
-                eligendi.
-              </p>
+                <p className="text-3xl font-bold">Luxury Car</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit. Veniam unde praesentium rerum aut ipsum, <br />quos itaque fuga doloribus mollitia quisquam nesciunt! <br />Voluptas asperiores neque esse excepturi quisquam ut nihil eligendi.</p>
             </div>
             <Button></Button>
           </div>
+          
         </div>
       </div>
+
 
       <LatestNewsAhosan></LatestNewsAhosan>
       <FooterAhosan></FooterAhosan>
@@ -98,5 +92,7 @@ const HomePageAhosanPart = () => {
 
 export default HomePageAhosanPart;
 
-//
-//
+
+
+// 
+// 

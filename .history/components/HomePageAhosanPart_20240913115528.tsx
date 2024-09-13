@@ -7,14 +7,13 @@ import FooterAhosan from "./FooterAhosan";
 const HomePageAhosanPart = () => {
   return (
     <div>
-      <div style={{ width: "100vw"}}>
+      <div className="bg-[url('https://i.ibb.co.com/Vq8FqrC/Untitled-1.png')] ">
+
         <Image
-          src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"
+          src="/path/to/your/image.jpg"
           alt="Description"
-          layout="responsive"
-          width={100} 
-          height={100} 
-          objectFit="cover" 
+          layout="fill"
+          objectFit="cover" // This ensures the image covers the container
         />
       </div>
 

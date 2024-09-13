@@ -12,7 +12,7 @@ const LatestNewsAhosan = () => {
           <p className="text-3xl font-bold">Latest News and Update</p>
         </div>
         <div className="flex gap-4 mt-5 ">
-          <div className="flex flex-col mb-5 bg-blue-100 p-2 rounded-lg">
+          <div className="flex flex-col mb-5 bg-blue-100 p-2">
             <Image
               className="rounded-3xl"
               src="https://i.ibb.co.com/dQ3kSww/Untitled-4-car.jpg"
@@ -38,59 +38,46 @@ const LatestNewsAhosan = () => {
             </div>
             <ReadMore></ReadMore>
           </div>
-          <div className="flex flex-col mb-5 bg-blue-100 p-2 rounded-lg">
+          <div className="flex flex-col items-center content-center mb-5">
             <Image
               className="rounded-3xl"
-              src="https://i.ibb.co.com/dQ3kSww/Untitled-4-car.jpg"
+              src="https://i.ibb.co.com/72hj4Gt/Untitled-5-car.jpg"
               alt="image"
               width={500}
               height={300}
             />
             <div className="flex text-center flex-col">
-              <div className="flex text-center flex-row justify-between mt-5 mb-2">
-                <span className="text-sm">Date:20th January 2024</span>
-                <p className="text-sm">
-                  Written by <span>Mr. John Washington</span>
-                </p>
-              </div>
-              <div className="text-left">
-                <p className="text-3xl font-bold">Generator of components <br /> which you should know</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing <br />
-                  elit. Veniam unde praesentium rerum aut ipsum, <br />
-                  quos itaque fuga doloribus mollitia quisquam nesciunt!.
-                </p>
-              </div>
+              <p className="text-3xl font-bold">Luxury Car</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit.
+                Veniam unde praesentium rerum aut ipsum, <br />
+                quos itaque fuga doloribus mollitia quisquam nesciunt! <br />
+                Voluptas asperiores neque esse excepturi quisquam ut nihil
+                eligendi.
+              </p>
             </div>
             <ReadMore></ReadMore>
           </div>
-          <div className="flex flex-col mb-5 bg-blue-100 p-2 rounded-lg">
+          <div className="flex flex-col items-center content-center mb-5">
             <Image
               className="rounded-3xl"
-              src="https://i.ibb.co.com/dQ3kSww/Untitled-4-car.jpg"
+              src="https://i.ibb.co.com/pvBDCNp/Untitled-6-car.jpg"
               alt="image"
               width={500}
               height={300}
             />
             <div className="flex text-center flex-col">
-              <div className="flex text-center flex-row justify-between mt-5 mb-2">
-                <span className="text-sm">Date:20th January 2024</span>
-                <p className="text-sm">
-                  Written by <span>Mr. John Washington</span>
-                </p>
-              </div>
-              <div className="text-left">
-                <p className="text-3xl font-bold">Generator of components <br /> which you should know</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing <br />
-                  elit. Veniam unde praesentium rerum aut ipsum, <br />
-                  quos itaque fuga doloribus mollitia quisquam nesciunt!.
-                </p>
-              </div>
+              <p className="text-3xl font-bold">Luxury Car</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit.
+                Veniam unde praesentium rerum aut ipsum, <br />
+                quos itaque fuga doloribus mollitia quisquam nesciunt! <br />
+                Voluptas asperiores neque esse excepturi quisquam ut nihil
+                eligendi.
+              </p>
             </div>
-            <ReadMore></ReadMore>
+            <Button></Button>
           </div>
-          
         </div>
       </div>
     </div>

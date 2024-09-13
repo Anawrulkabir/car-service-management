@@ -1,30 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import Button from "./Button";
-import LatestNewsAhosan from "./LatestNewsAhosan";
-import FooterAhosan from "./FooterAhosan";
 
-const HomePageAhosanPart = () => {
+const LatestNewsAhosan = () => {
   return (
     <div>
-      <div style={{ width: "100vw"}}>
-        <Image
-          src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"
-          alt="Description"
-          layout="responsive"
-          width={100} 
-          height={100} 
-          objectFit="cover" 
-        />
-      </div>
-
+      
       <div>
         <div>
-          <p>Felling any kind of vehicle here</p>
-          <p>Types of car we repair</p>
-          <p>
-            Our working sample <br /> with some picture
-          </p>
+          <p>Read what happen on our shop</p>
+          <p className="text-3xl font-bold">Latest News and Update</p>
         </div>
         <div className="flex gap-4 mt-5">
           <div className="flex flex-col items-center content-center mb-5">
@@ -89,14 +74,8 @@ const HomePageAhosanPart = () => {
           </div>
         </div>
       </div>
-
-      <LatestNewsAhosan></LatestNewsAhosan>
-      <FooterAhosan></FooterAhosan>
     </div>
   );
 };
 
-export default HomePageAhosanPart;
-
-//
-//
+export default LatestNewsAhosan;

@@ -7,7 +7,7 @@ import FooterAhosan from "./FooterAhosan";
 const HomePageAhosanPart = () => {
   return (
     <div>
-      <div style={{ width: "100vw"}}>
+      <div style={{ width: "100vw", height: "800px"}}>
         <Image
           src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"
           alt="Description"
