@@ -7,10 +7,9 @@ import OurRecentProject from "./OurRecentProject";
 
 const HomePageAhosanPart = () => {
   return (
-    <div className="w-full mx-auto">
+    <div>
       <div style={{ width: "100vw" }}>
         <Image
-        
           src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"
           alt="Description"
           layout="responsive"
@@ -91,7 +90,7 @@ const HomePageAhosanPart = () => {
           </div>
         </div>
       </div>
-      <div >
+      <div className="mx-auto ">
         <OurRecentProject></OurRecentProject>
         <LatestNewsAhosan></LatestNewsAhosan>
         <FooterAhosan></FooterAhosan>

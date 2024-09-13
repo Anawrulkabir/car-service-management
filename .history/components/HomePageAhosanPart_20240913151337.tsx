@@ -8,7 +8,7 @@ import OurRecentProject from "./OurRecentProject";
 const HomePageAhosanPart = () => {
   return (
     <div className="w-full mx-auto">
-      <div style={{ width: "100vw" }}>
+      <div style={{ width: "90vw" }}>
         <Image
         
           src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"

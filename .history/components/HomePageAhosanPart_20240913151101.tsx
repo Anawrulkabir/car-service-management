@@ -10,7 +10,6 @@ const HomePageAhosanPart = () => {
     <div className="w-full mx-auto">
       <div style={{ width: "100vw" }}>
         <Image
-        
           src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"
           alt="Description"
           layout="responsive"

@@ -3,20 +3,18 @@ import React from "react";
 import Button from "./Button";
 import LatestNewsAhosan from "./LatestNewsAhosan";
 import FooterAhosan from "./FooterAhosan";
-import OurRecentProject from "./OurRecentProject";
 
 const HomePageAhosanPart = () => {
   return (
-    <div className="w-full mx-auto">
-      <div style={{ width: "100vw" }}>
+    <div>
+      <div style={{ width: "100vw"}}>
         <Image
-        
           src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"
           alt="Description"
           layout="responsive"
-          width={100}
-          height={100}
-          objectFit="cover"
+          width={100} 
+          height={100} 
+          objectFit="cover" 
         />
       </div>
 
@@ -91,11 +89,9 @@ const HomePageAhosanPart = () => {
           </div>
         </div>
       </div>
-      <div >
-        <OurRecentProject></OurRecentProject>
-        <LatestNewsAhosan></LatestNewsAhosan>
-        <FooterAhosan></FooterAhosan>
-      </div>
+      
+      <LatestNewsAhosan></LatestNewsAhosan>
+      <FooterAhosan></FooterAhosan>
     </div>
   );
 };
