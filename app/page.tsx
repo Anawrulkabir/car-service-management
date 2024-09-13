@@ -1,13 +1,14 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import HomePage from "@/components/HomePage";
+import HomePageAhosanPart from '@/components/HomePageAhosanPart';
+import Navbar from '@/components/Navbar';
+import React from 'react';
 
-export default function Home() {
+const page = () => {
   return (
     <div>
       <Navbar/>
-      <HomePage/>
-      <Footer/>
+      <HomePageAhosanPart/>
     </div>
   );
-}
+};
+
+export default page;
