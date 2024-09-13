@@ -3,7 +3,7 @@ import React from "react";
 
 const OurRecentProject = () => {
   return (
-    <div className="flex flex-col items-center content-center">
+    <div >
       <div className="text-center mt-10 mb-5">
         <p className="text-3xl text-orange-700 font-black">Our Recent Projects</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores amet molestiae <br />id exercitationem vitae nobis quo? Reiciendis animi cumque odit reprehenderit? <br />Modi earum ducimus quo quasi. Saepe ullam pariatur maiores?</p>
@@ -11,16 +11,16 @@ const OurRecentProject = () => {
       <div className="grid grid-cols-3 grid-rows-2 gap-4 ">
         
         
-        <div className="">
+        <div className="p-4">
           <Image
             className=""
             src="https://i.postimg.cc/yxgW60Ft/6.jpg"
             alt="image"
-            width={300}
+            width={00}
             height={300}
           />
         </div>
-        <div className="">
+        <div className="p-4">
           <Image
             className=""
             src="https://i.postimg.cc/rsBsDzjm/5.jpg"
@@ -29,7 +29,7 @@ const OurRecentProject = () => {
             height={300}
           />
         </div>
-        <div className="">
+        <div className="p-4">
           <Image
             className=""
             src="https://i.postimg.cc/G2SH1Xsv/4.jpg"
@@ -38,7 +38,7 @@ const OurRecentProject = () => {
             height={300}
           />
         </div>
-        <div className="">
+        <div className="p-4">
           <Image
             className=""
             src="https://i.postimg.cc/G2pHNW9c/3.jpg"
@@ -47,7 +47,7 @@ const OurRecentProject = () => {
             height={300}
           />
         </div>
-        <div className="">
+        <div className="p-4">
           <Image
             className=""
             src="https://i.postimg.cc/pdCmsWWG/2.jpg"
@@ -56,7 +56,7 @@ const OurRecentProject = () => {
             height={300}
           />
         </div>
-        <div className="">
+        <div className="p-4">
           <Image
             className=""
             src="https://i.postimg.cc/jjtW6wbn/1.jpg"

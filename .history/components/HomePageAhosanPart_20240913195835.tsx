@@ -8,10 +8,10 @@ import CustomerReview from "./CustomerReview";
 
 const HomePageAhosanPart = () => {
   return (
-    <div className="flex flex-col items-center p-10">
-      <div style={{ width: "100vw"}}>
+    <div className="flex flex-col items-center p-">
+      <div style={{ width: "100vw" }}>
         <Image
-          className="w-full p-10"
+        
           src="https://i.ibb.co.com/Vq8FqrC/Untitled-1.png"
           alt="Description"
           layout="responsive"

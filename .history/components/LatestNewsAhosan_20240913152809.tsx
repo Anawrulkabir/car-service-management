@@ -5,8 +5,8 @@ import ReadMore from "./ReadMore";
 const LatestNewsAhosan = () => {
   return (
     <div>
-      <div className="flex flex-col items-center">
-        <div className="">
+      <div>
+        <div>
           <p>Read what happen on our shop</p>
           <p className="text-3xl font-bold">Latest News and Update</p>
         </div>
